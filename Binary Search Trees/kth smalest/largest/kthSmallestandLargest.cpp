@@ -1,4 +1,30 @@
-                                
+//  class Solution {
+
+//     void inOrder(TreeNode* node, int k, int &cnt, int &ans){
+//         if(!node || cnt>=k) return ;
+
+//         inOrder(node->left, k, cnt, ans);
+
+//         cnt++;
+//         if(cnt==k){
+//             ans = node->val;
+//             return;
+//         }
+
+//         inOrder(node->right, k, cnt, ans);
+
+//     }
+
+// public:
+//     int kthSmallest(TreeNode* root, int k) {
+//         int cnt = 0;
+//         int ans = -1;
+
+//         inOrder(root, k, cnt, ans);
+
+//         return ans;
+//     }
+// };                               
 #include <iostream>
 #include <vector>
 #include <climits> 
