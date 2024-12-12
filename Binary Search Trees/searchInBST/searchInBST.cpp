@@ -43,9 +43,6 @@ public:
     }
 };
 
-
-// Function to perform an in-order traversal
-// of a binary tree and print its nodes
 void printInOrder(TreeNode* root) {
     // Check if the current node
     // is null (base case for recursion)
