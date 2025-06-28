@@ -11,9 +11,7 @@ public:
                 candidate.push_back('a' + i);
             }
         }
-        queue<string> q;
-        for (char ch : candidate) {
-            q.push(string(1, ch));
+        queue<string> q;.push(string(1, ch));
         }
 
         string ans = "";
